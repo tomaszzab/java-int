@@ -1,5 +1,4 @@
 ## Java Interview Problem
-
 Application is run by default on 8080 port.
 Entry point to list tickets:
 Run ```curl -X GET http://localhost:8080/api/tickets```
