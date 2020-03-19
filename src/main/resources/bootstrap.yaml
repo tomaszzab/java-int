@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: test-app
+  cloud:
+    config:
+      uri: ${SPRING_CONFIG_URI:http://configuration:8888}
+      username: ${SPRING_CONFIG_USERNAME:configclient}
+      password: ${SPRING_CONFIG_PASSWORD:zaq12WSX}
+      fail-fast: true
+      enabled: ${SPRING_CONFIG_ENABLED:false}
+      label: ${SPRING_CONFIG_LABEL:}
+
+server:
+  port: 8080
